@@ -2,7 +2,7 @@ import * as THREE from "../build/three.module.js";
 
 export class Background {
     static setSpaceBackground(scene) {
-        var path = './Image/terrain/';
+        var path = './image/terrain/';
         var format = '.jpg';
         var urls = [
             path + 'space-posx' + format, path + 'space-negx' + format,
