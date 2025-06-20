@@ -16,7 +16,7 @@
     width: 100%;
     z-index: 5;
     opacity: 0;
-    background-image: url(../Image/xwing/xwing-cockpit.png);
+    background-image: url(../image/xwing/xwing-cockpit.png);
     background-position: 50% 0%;
     background-size: cover;
     background-repeat: no-repeat;

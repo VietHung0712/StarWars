@@ -1,4 +1,3 @@
-import * as THREE from "../build/three.module.js";
 import { GLTFLoader } from "../build/GLTFLoader.js";
 
 export class ModelLoader {
