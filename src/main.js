@@ -1,3 +1,4 @@
+import { $ } from "./function.js";
 import { SceneManager } from "./sceneManager.js";
 import { ModelLoader } from "./modelLoader.js";
 import { Controller } from "./controller.js";
@@ -16,7 +17,7 @@ modelLoader.loadModel("./models/xwing-2.glb", (model) => {
     main(model);
 });
 
-function main(model){
+function main(model) {
     const bulletManager = new BulletManager(sceneManager.scene);
 
     const controller = new Controller(model, sceneManager.camera, powerFireElement, bulletManager, xwingCockpit);

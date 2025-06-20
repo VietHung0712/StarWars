@@ -1,9 +1,9 @@
-const $ = document.querySelector.bind(document);
+export const $ = document.querySelector.bind(document);
 
-function toDegrees(radians) {
+export function toDegrees(radians) {
     return radians * (180 / Math.PI);
 }
-function toRadians(degrees) {
+export function toRadians(degrees) {
     return degrees * Math.PI / 180;
 }
 
